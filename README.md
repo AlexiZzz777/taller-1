@@ -2,7 +2,7 @@
 Este proyecto es un codigo de Java desarrollada para gestionar el ingreso al grupo de la asignatura de POO, filtrando alumnos inscritos formalmente de aquellos que no pertenecen al curso o intentan ingresar mediante enlaces públicos.
 
 # Integrante 
-* Diego Cortes
+* Diego Cortes - 22.376.295-6 - ICCI
 
 # Aclaraciones tecnicas
 * No se uso nada de POO
