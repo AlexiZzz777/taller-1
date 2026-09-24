@@ -13,26 +13,26 @@ public class taller01 {
     //Capacidad maxima de los vectores
     static int MAX = 100;
     
-    //Vectores Paralelos de Alumnos
+    //Paralelos de Alumnos
     static String[] alNombres = new String[MAX];
     static String[] alApellidos = new String[MAX];
     static String[] alRuts = new String[MAX];
     static String[] alParalelos = new String[MAX];
 
-    //Vectores Paralelos de Solicitudes
+    //Paralelos de Solicitudes
     static String[] solNombres = new String[MAX];
     static String[] solApellidos = new String[MAX];
 
-    //Vectores Paralelos de Admitidos al Grupo
+    //Paralelos de Admitidos al Grupo
     static String[] admNombres = new String[MAX];
     static String[] admApellidos = new String[MAX];
     static String[] admRuts = new String[MAX];
     static String[] admParalelos = new String[MAX];
 
-    //Vector de Rechazados
+    //de Rechazados
     static String[] rechazadosTextos = new String[MAX];
 
-    //Variables globales para estadisticas y control de versiones
+    //Variablespara estadisticas y control de versiones
     static int totalIntentos = 0;
     static int versC1 = 1;
     static int versC2 = 1;
@@ -99,7 +99,7 @@ public class taller01 {
     }
 
 
-    //CARGAR ARCHIVOS
+    //cargar arch
     public static void cargarArchivos() {
         int cantAl = 0;
         int cantSol = 0;
@@ -162,7 +162,7 @@ public class taller01 {
         System.out.println("- " + cantAl + " alumnos en la lista.");
         System.out.println("- " + cantSol + " solicitudes de ingreso.");
     }
-    //PROCESAR SOLICITUDES
+    //cargar solicitudes 
     public static void procesarSolicitudes() {
         System.out.println("Procesando solicitudes...");
         int admitidosHoy = 0, rechazadosHoy = 0;
@@ -197,7 +197,7 @@ public class taller01 {
         System.out.println("\nResumen: " + admitidosHoy + " admitidos / " + rechazadosHoy + " rechazados.");
     }
 
-    //INSCRIPCION MANUAL
+    //inscripcion manual
     public static void menuInscripcionManual() {
         System.out.println("\nComo desea inscribir a la persona?");
         System.out.println("1) Por nombre completo");
@@ -248,7 +248,7 @@ public class taller01 {
         }
     }
 
-    //ADMINISTRACION DEL CURSO
+    //administracion del curso
     public static void menuAdministracion() {
         System.out.println("\n--- Administracion del curso ---");
         System.out.println("1) Cambiar paralelo de un alumno");
@@ -358,7 +358,7 @@ public class taller01 {
         }
     }
 
-    //GENERAR REPORTES
+    //reportes
     public static void menuReportes() {
         File dir = new File("Reportes");
         if (!dir.exists()) {
@@ -418,7 +418,7 @@ public class taller01 {
             System.out.println("-> Error al escribir el reporte: " + e.getMessage());
         }
     }
-    //ANALISIS ESTADISTICO
+    //estadisticas
     public static void mostrarEstadisticas() {
         int cantRechazados = 0;
         for (int i = 0; i < MAX; i++) {
@@ -442,7 +442,7 @@ public class taller01 {
             tasaAdmision = ((double) totalAdmitidos / totalIntentos) * 100.0;
         }
 
-        System.out.println("\n--- Analisis estadistico ---");
+        System.out.println("\n---estadisticas---");
         System.out.println("Total de intentos de ingreso: " + totalIntentos);
         System.out.printf("Rechazados: %d (%.1f%%)\n", cantRechazados, porcRechazo);
         System.out.println("Admitidos por paralelo -> C1: " + admC1 + " | C2: " + admC2);
