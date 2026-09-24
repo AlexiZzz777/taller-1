@@ -7,7 +7,7 @@ Este proyecto es un codigo de Java que se desarrolla para gestionar el ingreso a
 # Aclaraciones tecnicas
 * No se uso nada de POO
 * Solo se usaron vectores estáticos
-* Se usaron las siguientes librerías ' Scanner, File, FileWriter, BufferedWriter, IOException'       
+* Se usaron las siguientes librerías  ` Scanner, File, FileWriter, BufferedWriter, IOException `    
 
 # Requisitos 
 * Lenguaje: Java
