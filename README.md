@@ -4,7 +4,7 @@ Este proyecto es un codigo de Java desarrollada para gestionar el ingreso al gru
 #Integrante 
 * Diego Cortes
 
-# Requisitos y Tecnologías
+# Requisitos 
 * Lenguaje: Java
 * IDE recomendado: Eclipse
 
