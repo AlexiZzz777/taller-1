@@ -11,5 +11,5 @@ Este proyecto es un codigo de Java desarrollada para gestionar el ingreso al gru
 # Instrucciones de Ejecución
 1. Clona o descarga este repositorio/carpeta.
 2. Abre el proyecto en tu IDE.
-3. Asegúrate de que el archivo de texto `Almunos.txt y Solicitudes.txt ` esté ubicado en la carpeta txts.
-4. Ejecuta la clase `taller01`.
+3. Asegúrate de que el archivo de texto `Almunos.txt y Solicitudes.txt ` esté descargado y ubicado en la misma carpeta que el codigo.
+4. Ejecuta  `taller01`.
